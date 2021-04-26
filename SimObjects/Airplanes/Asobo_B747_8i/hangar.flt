@@ -1,3 +1,6 @@
+[Options]
+Sound=True
+
 [Avionics.0]
 Comm1Active=118.300
 Comm1Standby=124.850
@@ -120,10 +123,13 @@ FoldingWingsState=0, 0
 AuxPowerUnitSwitch=False
 
 [LocalVars.0]
+XMLVAR_SeatBelts=1
+B747_8_MFD_NAV_MODE=2
 SALTY_IRS_STATE=0
 747_IRS_KNOB_1=0
 747_IRS_KNOB_2=0
 747_IRS_KNOB_3=0
+SALTY_ISFD_INIT_DONE=0
 
 [Electrical.0]
 alternator.5=False
@@ -133,6 +139,7 @@ circuit.105 = True,0.5
 circuit.106 = True,0.5
 circuit.107 = True,0.5
 circuit.108 = True,0.5
+circuit.111 = False,1.0
 
 [Gauges.0]
 KollsmanSetting=29.921342849731445313
